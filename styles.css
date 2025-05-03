@@ -16,7 +16,7 @@ body {
   height: 600px;
   width: 450px;
   background:
-    url(/background-notext.jpg) no-repeat center;
+    url(./assets/background-notext.jpg) no-repeat center;
   background-size: cover;
   border-radius: 20px;
   perspective: 1000px;
@@ -39,7 +39,7 @@ body {
   width: 200px;
   filter: drop-shadow(0px 0px 1px #000);
   background:
-    url(/text.webp) no-repeat center;
+    url(./assets/text.webp) no-repeat center;
   background-size: cover;
   transition: box-shadow .5s, transform .5s;
 
@@ -64,7 +64,7 @@ body {
   width: 100%;
   height: 100%;
   background:
-    url(/text.webp) no-repeat center;
+    url(./assets/text.webp) no-repeat center;
   background-size: cover;
   filter: brightness(0);
   z-index: -1;
@@ -78,7 +78,7 @@ body {
   width: 500px;
   filter: drop-shadow(0px 5px 10px #ff82);
   background:
-    url(/cloud.png) no-repeat center;
+    url(./assets/cloud.png) no-repeat center;
   background-size: cover;
   transition: box-shadow .5s, transform .5s;
   z-index: -1;
@@ -92,15 +92,15 @@ body {
   position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 50px;
+  bottom: 40px;
   left: 0;
   font-family: 'Cinzel', sans-serif;
-  font-size: 48px;
+  font-size: 38px;
   color: white;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
   transition: transform .5s;
 }
 
 #poster:hover #saga {
-  transform: translateZ(90px);
+  transform: translateZ(75px);
 }
