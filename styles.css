@@ -16,7 +16,7 @@ body {
   height: 600px;
   width: 450px;
   background:
-    url(./assets/background-notext.jpg) no-repeat center;
+    url(/assets/background-notext.jpg) no-repeat center;
   background-size: cover;
   border-radius: 20px;
   perspective: 1000px;
