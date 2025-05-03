@@ -104,3 +104,9 @@ body {
 #poster:hover #saga {
   transform: translateZ(75px);
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    transform: scale(0.7);
+  }
+}
